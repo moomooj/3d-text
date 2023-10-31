@@ -2,6 +2,8 @@
 
 - vite로 작성하였습니다.
 
+- 링크 https://moomooj.github.io/3d-text/
+
 ```bash
 
 # npm install

@@ -5,14 +5,18 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "devDependencies": {
     "vite": "^4.0.4"
   },
   "dependencies": {
+    "gh-pages": "^6.0.0",
     "gsap": "^3.5.1",
     "lil-gui": "^0.17.0",
     "three": "^0.157.0"
-  }
+  },
+  "homepage": "https://moomooj.github.io/3d-text/"
 }
